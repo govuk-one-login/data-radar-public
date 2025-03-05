@@ -1,24 +1,53 @@
 # GOV.UK One Login Data Radar
 
-Welcome to the **GOV.UK One Login Data Radar**. This repository provides an interactive and visual tool for exploring the **conceptual model** of data within **GOV.UK One Login**. The Data Radar enables users to navigate different levels of **conceptual data entities** in a structured and user-friendly manner.
 
-The **Data Radar** is designed to enhance transparency, helping users better understand how **GOV.UK One Login** processes and stores data. Whether you're a developer, policymaker, researcher, or just curious about the data, this tool provides valuable insights into the data landscape.
+
+<details>
+  <summary><strong>Contents</strong></summary>
+
+- [Introduction](#govuk-one-login-data-radar)
+- [About This Project](#about-this-project)
+- [What is in The Data Radar?](#about-the-information)
+  - [Data Sources](#data-sources)
+- [Data Radar Features](#data-radar-features)
+- [Application Development](#application-development)
+  - [Deployment](#deployment)
+  - [Security](#security)
+- [Maintenance & Future Use](#maintenance--future-use)
+- [Contact](#contact)
+
+</details>
+
+
+Welcome to the **GOV.UK One Login Data Radar**. This repository provides an **interactive and visual tool** for exploring the **conceptual model** of data within **GOV.UK One Login**. The Data Radar enables users to navigate different levels of **conceptual data entities** in a structured and user-friendly manner.
+
+The **Data Radar** is designed to enhance transparency, helping users better understand how **GOV.UK One Login** processes and stores data. Whether you're a developer, policymaker, researcher, journalist, or just curious about the data, this tool provides valuable insights into the data landscape.
+
 
 For more details, visit the [GOV.UK One Login documentation](https://www.sign-in.service.gov.uk/documentation/).
 
-## About the Conceptual Data Model
+## About this Project
 
-The **conceptual model** represents all data entities within **GOV.UK One Login**. It has been developed using publicly available information from official **GOV.UK** sources, ensuring transparency and clarity.
+The **Public Data Radar** is an **open-source project**, originally developed by **6point6**, to provide an interactive and visual way to explore the **conceptual data model (CDM)** for **GOV.UK One Login**.
+
+- The **codebase** was originally built by **6point6** and has been **customised** for public use.
+- You are **free to use, modify, and adapt** this tool to explore and visualise data.
+- However, **you cannot take this project and sell it**.
+
+## What is in the Data Radar?
+
+The **GOV.UK One Login** system is built on a clear structure that organises key pieces of information, which we call **data entities**. These data entities are based on reliable, publicly available details from official **GOV.UK** sources, ensuring that everything is transparent and easy to understand.
+
 
 ### Data Sources
-The data entities within the **Data Radar** are derived from the following official sources:
+The data entities within the Data Radar are derived from the following official sources:
 
-| **Source**                                                | **Description**                                                                         | **Examples of Data**                                                                                                                                                          |
+| **Source**                                                | **Description**                                                                         | **Examples of Information**                                                                                                                                                          |
 |-----------------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **[Privacy Notice](https://signin.account.gov.uk/privacy-notice)**         | Information on what data is collected and retained                                      |   [Passport face image](https://signin.account.gov.uk/privacy-notice#:~:text=We%20delete%20your%20still%20photo%20generated%20from%20your%20selfie%20video%2C%20driving%20licence%20images%20and%20biometric%20facial%20data%20from%20Iproov%E2%80%99s%20systems%20after%2030%20days.), which is retained for 30 days, [audit store data](https://signin.account.gov.uk/privacy-notice#:~:text=We%20also%20maintain%20a%20secure%20audit%20trail%20of%20all%20GOV.UK%20One%20Login%20audit%20events%20and%20activity%20which%20we%20retain%20for%207%20years%20for%20fraud%20monitoring%20purposes.), which is retained for 7 years, and [device IP address and computer GPS](https://signin.account.gov.uk/privacy-notice#:~:text=technical%20information%20including%20IP%20addresses%2C%20the%20type%20of%20device%20and%20web%20browser%20you%20use), which are used for security and technical purposes. |
-| **[Additional Information](https://www.gov.uk/government/consultations/draft-legislation-to-help-more-people-prove-their-identity-online/outcome/additional-information-govuk-one-login)** | Legislative background and policy context                                              | The documentation provides information on personal data collected. For example:  [name](https://www.gov.uk/government/consultations/draft-legislation-to-help-more-people-prove-their-identity-online/outcome/additional-information-govuk-one-login#:~:text=4.%20Name,accessing%20that%20service.), [password](https://www.gov.uk/government/consultations/draft-legislation-to-help-more-people-prove-their-identity-online/outcome/additional-information-govuk-one-login#:~:text=user%20is%20accessing.-,2.%20Password,No.,-3.%20Phone), [email address](https://www.gov.uk/government/consultations/draft-legislation-to-help-more-people-prove-their-identity-online/outcome/additional-information-govuk-one-login#:~:text=1.%20Email,user%20is%20accessing.), and [date of birth](https://www.gov.uk/government/consultations/draft-legislation-to-help-more-people-prove-their-identity-online/outcome/additional-information-govuk-one-login#:~:text=5.%20Date,accessing%20that%20service.), which are used for authentication when accessing government services. |
-| **[Technical Documentation](https://docs.sign-in.service.gov.uk/integrate-with-integration-environment/)** | Guidelines for developers on API integration and security standards                 | The documentation provides information on proving identity through documents such as a [passport](https://docs.sign-in.service.gov.uk/integrate-with-integration-environment/prove-users-identity/#understand-your-user-39-s-passport-claim) or [driving licence](https://docs.sign-in.service.gov.uk/integrate-with-integration-environment/prove-users-identity/#understand-your-user-39-s-driving-licence-claim). Additionally, it references the [Identity Journey Map](https://www.figma.com/design/6D6nLrW4MayhrIaJ4N7FHm/GOV.UK-One-Login-Identity-checking-user-journey-maps) for a detailed visualisation of the authentication process. |
-| **[Data Vocab](https://vocab.account.gov.uk/)**           | Definitions and classifications of data entities                                        | This document provides standardised terminology and definitions for data fields, entity relationships, and metadata, helping to clarify how data is described and used within the system. |
+| **[Privacy Notice](https://signin.account.gov.uk/privacy-notice)**         | Details what data is collected, retained, and for how long. It includes technical and biometric data not found in other sources.                                      |   [Passport face image](https://signin.account.gov.uk/privacy-notice#:~:text=We%20delete%20your%20still%20photo%20generated%20from%20your%20selfie%20video%2C%20driving%20licence%20images%20and%20biometric%20facial%20data%20from%20Iproov%E2%80%99s%20systems%20after%2030%20days.), which is retained for 30 days, [audit store data](https://signin.account.gov.uk/privacy-notice#:~:text=We%20also%20maintain%20a%20secure%20audit%20trail%20of%20all%20GOV.UK%20One%20Login%20audit%20events%20and%20activity%20which%20we%20retain%20for%207%20years%20for%20fraud%20monitoring%20purposes.), which is retained for 7 years, and [device IP address and computer GPS](https://signin.account.gov.uk/privacy-notice#:~:text=technical%20information%20including%20IP%20addresses%2C%20the%20type%20of%20device%20and%20web%20browser%20you%20use), which are used for security and technical purposes. |
+| **[Additional Information](https://www.gov.uk/government/consultations/draft-legislation-to-help-more-people-prove-their-identity-online/outcome/additional-information-govuk-one-login)** | Explains legislative background and policy context. It covers basic personal details but does not specify retention periods or biometric data.                                              | Includes commonly collected personal details such as [name](https://www.gov.uk/government/consultations/draft-legislation-to-help-more-people-prove-their-identity-online/outcome/additional-information-govuk-one-login#:~:text=4.%20Name,accessing%20that%20service.), [password](https://www.gov.uk/government/consultations/draft-legislation-to-help-more-people-prove-their-identity-online/outcome/additional-information-govuk-one-login#:~:text=user%20is%20accessing.-,2.%20Password,No.,-3.%20Phone), [email address](https://www.gov.uk/government/consultations/draft-legislation-to-help-more-people-prove-their-identity-online/outcome/additional-information-govuk-one-login#:~:text=1.%20Email,user%20is%20accessing.), and [date of birth](https://www.gov.uk/government/consultations/draft-legislation-to-help-more-people-prove-their-identity-online/outcome/additional-information-govuk-one-login#:~:text=5.%20Date,accessing%20that%20service.), which are used for authentication when accessing government services. |
+| **[Technical Documentation](https://docs.sign-in.service.gov.uk/integrate-with-integration-environment/)** | Provides API integration guidance for developers, security standards, and identity verification processes.                 | Describes how users verify identity through documents such as a [passport](https://docs.sign-in.service.gov.uk/integrate-with-integration-environment/prove-users-identity/#understand-your-user-39-s-passport-claim) or [driving licence](https://docs.sign-in.service.gov.uk/integrate-with-integration-environment/prove-users-identity/#understand-your-user-39-s-driving-licence-claim). Also includes an [Identity Journey Map](https://www.figma.com/design/6D6nLrW4MayhrIaJ4N7FHm/GOV.UK-One-Login-Identity-checking-user-journey-maps) to visualize authentication steps. |
+| **[Data Vocab](https://vocab.account.gov.uk/)**           | Standardizes terminology and data classifications used across GOV.UK One Login.                                        | Defines key terms, entity relationships, and metadata structures, ensuring consistency in how data is described and interpreted within the system. |
 
 
 ## Data Radar Features
@@ -70,3 +99,13 @@ Advised method:
 
 As this application is build using Python's dash library it can be placed behind basic HTTP auth following instructions here: https://dash.plotly.com/authentication however this can potenially require hardcoding a single user and password which goes against best practices.
 
+## Maintenance & Future Use
+
+As of **early 2025**, this project is **not actively maintained**. The **data landscape** within this repository reflects publicly available information at the time of release, but it may change over time. Others are welcome to **update, extend, or adapt** the project further.
+
+If you're interested in understanding the code, you can reach out to the following individuals on **LinkedIn**:
+
+- **[Dan Budden](https://www.linkedin.com/in/danbudden/)**  
+- **[Dominic Stevenson](https://www.linkedin.com/in/dominic-stevenson/)**  
+- **[Nadine Hakedin](https://www.linkedin.com/in/nadinehakedin/)**
+- **[Jimmy O'Connell](https://www.linkedin.com/in/jimmy-o-connell-647650143/)**  
