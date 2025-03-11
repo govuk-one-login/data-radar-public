@@ -1,6 +1,6 @@
 # GOV.UK One Login Data Radar
 
-
+![Data Radar Preview](public-data-radar-preview.png)
 
 ### Contents
 - [Introduction](#govuk-one-login-data-radar)
@@ -76,7 +76,6 @@ The information in the Data Radar is more likely to be populated manually. This 
 * the data input is a spreadsheet, which makes it easier for people who do not know python to make updates to the data landscape
 
 ### Data Radar Features
-![Data Radar Preview](public-data-radar-preview.png)
 
 The Data Radar is designed to help you explore and interact with data in an intuitive way. Here's how you can use it:
 
