@@ -1,0 +1,9 @@
+{
+"all": "",
+"Authentication":"Sign in only",
+"Identity":"Prove and resuse identity, across any channel",
+"User experience":"For convenience and accessibility",
+"Performance analysis":"Metrics on the success of the programme",
+"Billing analysis":"Financial reporting on operations",
+"Audit":"Mandatory record keeping"
+}

@@ -1,0 +1,123 @@
+level 1,level 2,level 3,level 4,level 5,level 6,level 7,Authentication,Authentication retention,Authentication Storage Technology,Identity,Identity retention,Identity Storage Technology,User experience,User experience retention,Analytics,Analytics retention,Analytics Storage Technology,Audit,Audit retention,Audit Storage Technology
+Account,Account ID,,,,,,y,Until 5 years of inactivity,Cloud Storage,y,Until 5 years of inactivity,Cloud Storage,n,Not used,y,1 year,Cloud Storage,y,7 years,Cloud Storage
+Account,Username (email),,,,,,y,Until 5 years of inactivity,Cloud Storage,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Account,Password,,,,,,y,Until 5 years of inactivity,Cloud Storage,n,Not used,Not Used,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Account,Authenticator,Mobile phone number,,,,,y,Until 5 years of inactivity,Cloud Storage,n,Not used,Not Used,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Account,Authenticator,Secret Key,,,,,y,Until 5 years of inactivity,Cloud Storage,n,Not used,Not Used,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Account,Authenticator,One Time Password,,,,,y,15 minutes,Cloud Storage,n,Not used,Not Used,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Account,Preferences,Language Preference,,,,,n,Not used,Not Used,n,Not used,Not Used,y,Until 5 years of inactivity ,n,Not used,Not Used,n,Not used,Not Used
+Account,State,,,,,,y,Until 5 years of inactivity,Cloud Storage,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Device,IP Address,,,,,,n,Not used,Not Used,n,Not used,Not Used,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Device,Computer,Device Cookie,,,,,n,Not used,Not Used,n,Not used,Not Used,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Device,Computer,GPS,,,,,n,Not used,Not Used,n,Not used,Not Used,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Device,Mobile,Device ID,,,,,n,Not used,Not Used,n,Not used,Not Used,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Device,Mobile,Device Model,,,,,n,Not used,Not Used,n,Not used,Not Used,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Device,Mobile,Device OS Version,,,,,n,Not used,Not Used,n,Not used,Not Used,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Journey,Token,Access Token,,,,,y,3 minutes,Cloud Storage,y,3 minutes,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Journey,Token,ID Token,,,,,y,3 minutes,Cloud Storage,y,3 minutes,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Journey,Token,Refresh Token,,,,,y,3 minutes,Cloud Storage,y,3 minutes,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Journey,Session,Component Session Identifier,,,,,n,Not used,Not Used,n,Not used,Not Used,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Journey,Session,Component Session Expiry,,,,,n,Not used,Not Used,n,Not used,Not Used,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Journey,Session,Persistent Session Identifier,,,,,n,Not used,Not Used,n,Not used,Not Used,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Journey,Session,Relying Party Reference,,,,,n,Not used,Not Used,n,Not used,Not Used,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Journey,Web Activity,,,,,,n,Not used,Not Used,n,Not used,Not Used,n,Not used,y,50 months,Cloud Storage,n,Not used,Not Used
+Digital Identity,Identity Profile,Confidence Level,Required Confidence,,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Identity Profile,Confidence Level,Level of Confidence,,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Core Identity Attributes,Name,First name,,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Core Identity Attributes,Name,Family name,,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Core Identity Attributes,Date of Birth,,,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Type,Current address,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Type,Previous address(es),,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Location,UPRN,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Location,Organisation name,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Location,Department name,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Location,Subbuilding name,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Location,Building number,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Location,Building name,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Location,Dependent street name,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Location,Street name,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Location,Double dependent address,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Location,Locality,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Location,Dependent address locality,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Location,Address locality,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Location,Postal code,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Additional Identity Attributes,Address,Location,Country code,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Check Method,,,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Evidence,F2F,,,,n,Not used,Not Used,y,11 days,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Evidence,KBV,Quality Score,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Evidence,KBV,Response Mode,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Evidence,KBV,Payload,Questions,,n,Not used,Not Used,n,Not used,Not Used,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Evidence,KBV,Payload,Responses,,n,Not used,Not Used,n,Not used,Not Used,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Evidence,App,Webcam,Video Image,,n,Not used,Not Used,y,30 days,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Evidence,App,Webcam,Biometric Profile,,n,Not used,Not Used,y,30 days,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Evidence,App,Camera,Passport Image,,n,Not used,Not Used,y,30 days,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Evidence,App,Camera,Driving Permit Image,Front page,n,Not used,Not Used,y,30 days,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Evidence,App,Camera,Driving Permit Image,Back page,n,Not used,Not Used,y,30 days,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Evidence,Bank,Sort Code,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Evidence,Bank,Account Number,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Evidence,Social Security Record,National Insurance Number,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Type,GPG45,Strength,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Type,GPG45,Validity,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Type,GPG45,Verification,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Type,GPG45,Activity History,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Type,Fraud,Mortality,,,n,Not used,Not Used,y,As brief as necessary and lawful,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Type,Fraud,Theft,,,n,Not used,Not Used,y,As brief as necessary and lawful,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Type,Fraud,Synthetic,,,n,Not used,Not Used,y,As brief as necessary and lawful,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Type,Fraud,Impersonation,,,n,Not used,Not Used,y,As brief as necessary and lawful,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Method,Data,,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Method,Scan,,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Method,Crypographic,,,,n,Not used,Not Used,y,Until removed,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Method,KBV,,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Entitlement proof,Passport,VIZ,Document Number,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Entitlement proof,Passport,VIZ,Family Name,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,Passport,VIZ,Given Name,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,Passport,VIZ,ICAO Issuer,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Entitlement proof,Passport,VIZ,Expiry Date,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Entitlement proof,Passport,Chip,MRZ,Line 1,n,Not used,Not Used,y,As brief as necessary and lawful,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Entitlement proof,Passport,Chip,MRZ,Line 2,n,Not used,Not Used,y,As brief as necessary and lawful,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,Passport,Chip,Document Number,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,Passport,Chip,Given Name,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,Passport,Chip,Family Name,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,Passport,Chip,Date of Birth,,n,Not used,Not Used,y,As brief as necessary and lawful,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,Passport,Chip,Sex,,n,Not used,Not Used,y,30 days,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,Passport,Chip,Nationality,,n,Not used,Not Used,y,As brief as necessary and lawful,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,Passport,Chip,Place of Birth,,n,Not used,Not Used,y,30 days,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,Passport,Chip,ICAO Issuer,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,Passport,Chip,Expiry Date,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,Passport,Chip,Creation Date,,n,Not used,Not Used,y,30 days,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,Passport,Chip,Face Image,,n,Not used,Not Used,y,As brief as necessary and lawful,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,Driving Permit,Driver Number,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Entitlement proof,Driving Permit,Family Name,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,7 years,Not Used
+Digital Identity,Check,Entitlement proof,Driving Permit,Given Name,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,7 years,Not Used
+Digital Identity,Check,Entitlement proof,Driving Permit,Date of Birth,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,7 years,Not Used
+Digital Identity,Check,Entitlement proof,Driving Permit,Address,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Entitlement proof,Driving Permit,Issuer,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Entitlement proof,Driving Permit,Issue Date,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Entitlement proof,Driving Permit,Expiry Date,,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Entitlement proof,BRP,VIZ,Permit Number,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Entitlement proof,BRP,VIZ,Name,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,BRP,VIZ,Date of Birth,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,BRP,VIZ,Expiry Date,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Entitlement proof,BRP,MRZ,Line 1,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,y,7 years,Cloud Storage
+Digital Identity,Check,Entitlement proof,BRP,MRZ,Line 2,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,BRP,Chip,Fingerprints,,n,Not used,Not Used,n,Until 5 years of inactivity,Not Used,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,BRP,Chip,Document Number,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,BRP,Chip,Surname,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,BRP,Chip,Date of Birth,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,BRP,Chip,Sex,,n,Not used,Not Used,y,30 days,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,BRP,Chip,Nationality,,n,Not used,Not Used,y,As brief as necessary and lawful,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,BRP,Chip,Place of Birth,,n,Not used,Not Used,y,30 days,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,BRP,Chip,ICAO Issuer,,n,Not used,Not Used,y,As brief as necessary and lawful,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,BRP,Chip,Personal Number,,n,Not used,Not Used,y,Until removed,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,BRP,Chip,Expiry Date,,n,Not used,Not Used,y,Until 5 years of inactivity,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,BRP,Chip,Creation Date,,n,Not used,Not Used,y,30 days,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,BRP,Chip,Face Image,,n,Not used,Not Used,y,As brief as necessary and lawful,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Digital Identity,Check,Entitlement proof,BRP,Chip,Signature,,n,Not used,Not Used,y,30 days,Cloud Storage,n,Not used,n,Not used,Not Used,n,Not used,Not Used
+Config,Organisation Role,Authoritative Source,Authoritative Source Entitlement,,,,y,Until 5 years of inactivity,Cloud Storage,y,Until 5 years of inactivity,Cloud Storage,n,Not used,y,Until 5 years of inactivity,Cloud Storage,y,7 years,Cloud Storage
+Config,Organisation Role,Authoritative Source,Authoritative Source Evidence,,,,y,Until 5 years of inactivity,Cloud Storage,y,Until 5 years of inactivity,Cloud Storage,n,Not used,y,Until 5 years of inactivity,Cloud Storage,y,7 years,Cloud Storage
+Config,Organisation Role,Client,Government Service,,,,y,Until 5 years of inactivity,Cloud Storage,y,Until 5 years of inactivity,Cloud Storage,n,Not used,y,Until 5 years of inactivity,Cloud Storage,y,7 years,Cloud Storage
+Config,Organisation Role,Client,Client ID,,,,y,Until 5 years of inactivity,Cloud Storage,y,Until 5 years of inactivity,Cloud Storage,n,Not used,y,Until 5 years of inactivity,Cloud Storage,y,7 years,Cloud Storage
+Config,Organisation Role,Service Provider,,,,,y,Until 5 years of inactivity,Cloud Storage,y,Until 5 years of inactivity,Cloud Storage,n,Not used,y,Until 5 years of inactivity,Cloud Storage,y,7 years,Cloud Storage
+Config,Keys,Relying Party Public Key,,,,,y,Until 5 years of inactivity,Cloud Storage,y,Until 5 years of inactivity,Cloud Storage,n,Not used,y,Until 5 years of inactivity,Cloud Storage,y,7 years,Cloud Storage
+Config,Keys,VC Signing Key,,,,,y,Until 5 years of inactivity,Cloud Storage,y,Until 5 years of inactivity,Cloud Storage,n,Not used,y,Until 5 years of inactivity,Cloud Storage,y,7 years,Cloud Storage
+Config,Keys,Identity Signing Key,,,,,y,Until removed,,y,Until removed,,n,Until removed,y,Until removed,,y,Until removed,
