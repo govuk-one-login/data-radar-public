@@ -126,7 +126,7 @@ As this application is build using Python's dash library it can be placed behind
 
 As of **early 2025**, this project is **not actively maintained**. The **data landscape** within this repository reflects publicly available information at the time of release, but it may change over time. Others are welcome to **update, extend, or adapt** the project further.
 
-If you're interested in understanding the code, you can reach out to the following individuals on **LinkedIn**:
+If you're interested in understanding the code, please first of all contact the current GOV.UK repository owners and code owners. You may also reach out to the original code authors on **LinkedIn**:
 
 - **[Dan Budden](https://www.linkedin.com/in/danbudden/)**  
 - **[Dominic Stevenson](https://www.linkedin.com/in/dominic-stevenson/)**  
