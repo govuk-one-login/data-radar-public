@@ -19,7 +19,7 @@
 ##  GOV.UK One Login Data Radar
 Welcome to the **GOV.UK One Login Data Radar**. This repository provides an interactive and visual tool that helps you explore how data is used within GOV.UK One Login. The Data Radar allows you to see different types of information collected, why it is needed, and how it is managed, all in a clear and user-friendly way.
 
-The Data Radar is designed to enhance transparency, helping users better understand how GOV.UK One Login processes and stores data. Whether you're a developer, policymaker, researcher, journalist, or just curious about the data, this tool provides valuable insights into the data landscape.
+The Data Radar is intended to help people better understand what data GOV.UK One Login processes and stores. This information is already available to the public in various places, so the Data Radar puts this information in one place and visualises it.
 
 
 For more details, visit the [GOV.UK One Login documentation](https://www.sign-in.service.gov.uk/documentation/).
