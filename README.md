@@ -31,7 +31,7 @@ The **Public Data Radar** is an **open-source project**, originally developed by
 
 - The **codebase** was originally built by **6point6** and has been **customised** for GOV.UK one login use
 - You are **free to use, modify, and adapt** this tool to explore and visualise data
-- However, **you cannot take this project and sell it**
+- You are free to use this project in the context of commercial engagements, but you cannot take this project and sell it directly
 
 ### What is in the Data Radar
 
