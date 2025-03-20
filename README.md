@@ -92,7 +92,7 @@ Additionally, each data entity may have more characteristics you can explore, su
 
 ## Application Development
 
-This application can be ran locally by installing the dependencies in `requirements.txt` and using python3 to run `app.py`. Alternatively to build and run the application within Docker locally just enter `make`.
+See below for notes on deploying this application on the cloud. For local development, install the dependencies in `requirements.txt` and use python3 to run `app.py`. Alternatively to build and run the application within Docker locally just enter `make`.
 
 The [make file](Makefile) will also contain most commands required for developing the application including linting, building the docker container and running it locally. Run `make help` to list these commands and descriptions
 
