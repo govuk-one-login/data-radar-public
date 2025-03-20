@@ -29,7 +29,7 @@ For more details, visit the [GOV.UK One Login documentation](https://www.sign-in
 
 The **Public Data Radar** is an **open-source project**, originally developed by **6point6**, to provide an interactive and visual way to explore the the **GOV.UK One Login** data.
 
-- The **codebase** was originally built by **6point6** and has been **customised** for GOV.UK one login use
+- The **codebase** was originally built by **6point6** and has been freely migrated to GOV.UK on the basis it continues to be open source, and **customised** for GOV.UK One Login data
 - You are **free to use, modify, and adapt** this tool to explore and visualise data
 - You are free to use this project in the context of commercial engagements, but you cannot take this project and sell it directly
 
