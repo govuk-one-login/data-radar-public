@@ -32,6 +32,7 @@ The **Public Data Radar** is an **open-source project**, originally developed by
 - The **codebase** was originally built by **6point6** and has been freely migrated to GOV.UK on the basis it continues to be open source, and **customised** for GOV.UK One Login data
 - You are **free to use, modify, and adapt** this tool to explore and visualise data
 - You are free to use this project in the context of commercial engagements, but you cannot take this project and sell it directly
+- This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for full details
 
 ### What is in the Data Radar
 
